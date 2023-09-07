@@ -12,7 +12,7 @@ export class LoginPage implements OnInit {
    * cada clave tiene su valor inicial
    */
   user={
-    usuario:"hola",
+    usuario:"",
     password:""
   }
   constructor(private router: Router) { } // Se debe instanciar
