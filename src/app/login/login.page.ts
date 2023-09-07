@@ -29,4 +29,12 @@ export class LoginPage implements OnInit {
     this.router.navigate(['/home'],navigationExtras); // navegamos hacia el Home y enviamos información adicional
   }
 
+  olvidaPass(){
+    this.router.navigate(['/forget']); 
+  }
+  
+  crearCuenta(){
+    this.router.navigate(['/signup']); 
+  }
+
 }
